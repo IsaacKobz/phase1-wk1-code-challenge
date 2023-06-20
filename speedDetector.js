@@ -16,5 +16,9 @@ rl.question(`What is your Speed`, function(speed){
             console.log(`Ok`)
             return
         }
+        const demeritPoints = Math.floor((speed - speedLimit)/ kmPerDemeritPoint)
+        if (demeritPoints > 12){
+            console.log(`Suspended License`)
+        }
     }
 })
