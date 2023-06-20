@@ -17,7 +17,29 @@ rl.question("How many marks did the student score", function(marks){
             console.log(`E`)
             console.log(`Student's Grade is E`)
         }
-    }
+        else if (marks > 40 && marks <= 49) {
+            console.log("D");
+            console.log("Student's Grade is D")
+        }
+        else if (marks >= 49 && marks <= 59){
+            console.log(`C`)
+            console.log(`Student's grade is C`)
+        }
+        else if (marks >= 60 && marks <= 79){
+            console.log(`B`)
+            console.log(`Student's Grade is B`)
+        }
+        else if (marks > 79 && marks <= 100){
+            console.log(`A`)
+            console.log(`Student's Grade is A`)
+        }
+        else if(){
+            console.log(`No Such Grade`)
+        }
+        return
+
+    }   
+    
 })
 
 
