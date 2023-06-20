@@ -33,7 +33,7 @@ rl.question("How many marks did the student score", function(marks){
             console.log(`A`)
             console.log(`Student's Grade is A`)
         }
-        else if(){
+        else if{
             console.log(`No Such Grade`)
         }
         return
