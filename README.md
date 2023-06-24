@@ -14,4 +14,10 @@ For example, if the speed is 80, it should print: “Points: 2”. If the driver
  
 
 Challenge 3: Net Salary Calculator (Toy Problem)
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary.
+
+how to access the code
+
+git@github.com:IsaacKobz/phase1-wk1-code-challenge.git
+
+written and edited by Isaac K'Obonyo
