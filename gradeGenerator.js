@@ -19,4 +19,6 @@ if (studentMarks > 79) {
 
 console.log("Grade:" + grade)
 
-document.getElementById(`output`).innerHTML = `Student Grade`: $(grade)
+document.getElementById(`output`).innerHTML = `Student Grade: ${grade}`
+
+//
